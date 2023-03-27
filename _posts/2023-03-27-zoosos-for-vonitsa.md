@@ -2,7 +2,7 @@
 layout: post
 title:  "zoosos posts about Vonitsa"
 categories: [ animal welfare, cooperation ]
-image: assets/images/1.jpg
+image: assets/images/1.png
 ---
 Animal abuse is a serious issue that affects countless animals around the world. Unfortunately, even in areas where animal welfare laws are in place, abuse still occurs. This is why the Zoosos site is such an important resource for animal advocates in the Vonitsa area and beyond.
 
