@@ -1,5 +1,6 @@
 ---
 layout: post
+featured: false
 title:  "Tree of Codes"
 author: sal
 categories: [ Jekyll, tutorial ]

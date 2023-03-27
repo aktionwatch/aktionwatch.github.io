@@ -1,29 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-03-25 20:18:16 +0200
-categories: jekyll update
+title:  "Welcome to Aktion Watch!"
+date:   2023-03-27
+categories: introduction
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+🎉 We're thrilled to announce the launch of our new website! At Aktion Watch, our mission is to promote sustainable development, preserve cultural heritage, and protect animal welfare in Western Greece and beyond. 🌍🎭🐾
 
-Jekyll requires blog post files to be named according to the following format:
+🌱 Our vision is to create a more sustainable and compassionate world, where all people and animals can thrive. Through our local action projects, we're working to make this vision a reality. We believe that small actions can have a big impact, and we're committed to doing our part to create positive change. 🌟
 
-`YEAR-MONTH-DAY-title.MARKUP`
+🤝 Aktion Watch was born out of the Animal Welfare Volunteer Team "Stray Smiles", which was primarily focused on animal welfare issues. However, our passion for making a difference extended beyond just animal welfare, and we wanted to create a platform where we could address a wider range of social and environmental issues.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+🌿 Today, Aktion Watch is dedicated to promoting sustainable development, preserving cultural heritage, and protecting animal welfare. We invite you to join us in our mission. Whether you're passionate about environmental protection, cultural preservation, or animal welfare, there's a place for you in our community. Let's work together to build a better world for ourselves and future generations. 💚
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+👀 Take a look around our new website to learn more about our projects and how you can get involved. We can't wait to hear from you!

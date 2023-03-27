@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
+title: Our mission
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+At Aktion Watch, we believe that local action is crucial to achieving the 17 Sustainable Development Goals.
+Our focus is on promoting environmental sustainability, celebrating culture, and protecting our animal friends in our local community through activism and STEM education.
+By working together towards these goals, we can make a significant impact on global issues such as wellbeing, climate change, and biodiversity loss.
+We believe that every small action counts and can contribute towards a more sustainable and equitable future for all. Join us in our mission to create positive change in our communities and beyond.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Follow us on [Linkedin](https://www.linkedin.com/in/aktion-watch/)  and  [Facebook](https://www.facebook.com/aktionwatch) to find out more!
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
