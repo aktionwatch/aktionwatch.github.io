@@ -21,7 +21,7 @@ Take a look at some of our past projects:
   </div>
   <div style="text-align: center;">
     <a href="https://aktionwatch.github.io/link2">
-      <img src="{{ site.baseurl }}/assets/images/image2.png" alt="Link 2 Image" style="width: 40%;" />
+      <img src="{{ site.baseurl }}/assets/images/openair.png" alt="Link 2 Image" style="width: 40%;" />
     </a>
     <p>
       <a href="https://aktionwatch.github.io/link2">Link 2 Title</a>
