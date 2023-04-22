@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "zoosos posts about Vonitsa"
+title:  "Zoosos posts about Vonitsa"
 categories: [ animal welfare, cooperation ]
 image: assets/images/1.png
 ---
