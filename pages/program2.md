@@ -8,5 +8,5 @@ image: assets/images/openair.png
 
 🎵 From concerts and festivals to music nights and open-air book exhibitions, our members have been working tirelessly to promote the arts and preserve cultural heritage in the region. We believe that by keeping these traditions alive, we can enrich our communities and create a more vibrant and diverse society. 🎶
 
-Check out the [Open Air Book Exhibition][zoosos-posts] for more info on  some of our actions!
+Check out the [Open Air Book Exhibition][/aktionwatch.github.io/openair] for more info on  some of our actions!
 
