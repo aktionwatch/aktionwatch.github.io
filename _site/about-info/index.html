@@ -103,29 +103,18 @@
 	    
               
 		
-     <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Our projects
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  {% for subitem in item.submenu %}
-                    {% if subitem.submenu %}
-                      <li class="dropdown-submenu">
-                        <a class="dropdown-item dropdown-toggle" href="{{ subitem.url }}">{{ subitem.title }}</a>
-                        <ul class="dropdown-menu">
-                          {% for submenuitem in subitem.submenu %}
-                            <li><a class="dropdown-item" href="{{ submenuitem.url }}">{{ submenuitem.title }}</a></li>
-                          {% endfor %}
-                        </ul>
-                      </li>
-                    {% else %}
-                      <li><a class="dropdown-item" href="{{ subitem.url }}">{{ subitem.title }}</a></li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
-      </li>
-              
-	    
+   		 <li class="nav-item dropdown">
+     		 <a class="nav-link dropdown-toggle px-3" href="#" id="ourprojectsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      		  Our projects
+    		 </a>
+		 <div class="dropdown-menu" aria-labelledby="ourprojectsDropdown">
+       			 <!-- Add the dropdown menu items here -->
+   		     <a class="dropdown-item" href="/aktionwatch.github.io/program1">Environmental</a>
+   		     <a class="dropdown-item" href="/aktionwatch.github.io/program2">Cultural</a>
+  		     <a class="dropdown-item" href="/aktionwatch.github.io/program3">Animal Welfare</a>
+   		</div>
+           	</li>
+   		
               
 		
 		<li class="nav-item">
