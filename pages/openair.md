@@ -13,19 +13,19 @@ The success of the Open Air Book Exhibition in Vonitsa during the summers of 201
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
      <img src="{{ site.baseurl }}/assets/images/openair1.png" alt="Open Air Book Exhibition" style="width: 40%;" />
-    <p>
+    <p style="font-size: 14px;">
       Under the Same Sky performance
     </p>
   </div>
   <div style="text-align: center;">
        <img src="{{ site.baseurl }}/assets/images/openair2.png" alt="Link 2 Image" style="width: 40%;" />
-    <p>
+    <p style="font-size: 14px;">
       Under the Same Sky performance
     </p>
   </div>
     <div style="text-align: center;">
         <img src="{{ site.baseurl }}/assets/images/openair3.png" alt="Open Air Book Exhibition" style="width: 40%;" />
-    <p>
+    <p style="font-size: 14px;">
       Singer Miltos Pashalidis at Open Air Book Exhibition
     </p>
   </div>
