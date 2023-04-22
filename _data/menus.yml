@@ -22,6 +22,12 @@ topmenu:
 - title: Contact
   url: "contact/"
 
+{% comment %} Nested HTML unordered list for the submenu {% endcomment %}
+<ul class="submenu">
+{% for subitem in item.submenu %}
+  <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+{% endfor %}
+</ul>
 
 # Footer Menu
 footermenu:
