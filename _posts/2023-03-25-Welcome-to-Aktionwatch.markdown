@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Aktion Watch!"
 date:   2023-03-27
-categories: introduction
+categories: [ animal welfare, culture, environment]
 ---
 🎉 We're thrilled to announce the launch of our new website! At Aktion Watch, our mission is to promote sustainable development, preserve cultural heritage, and protect animal welfare in Western Greece and beyond. 🌍🎭🐾
 
