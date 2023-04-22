@@ -35,6 +35,6 @@ The success of the Open Air Book Exhibition in Vonitsa during the summers of 201
 <div style="text-align: center;">
         <img src="{{ site.baseurl }}/assets/images/openair3.png" alt="Open Air Book Exhibition" style="width: 100%;" />
     <p style="font-size: 12px;">
-      Singer Miltos Pashalidis at Open Air Book Exhibition
+      Singer Miltos Paschalidis and Aktion Watch President Georgia Tsavala at the Open Air Book Exhibition
     </p>
 </div>
