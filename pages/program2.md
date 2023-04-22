@@ -7,6 +7,6 @@ permalink: /program2/
 
 🎵 From concerts and festivals to music nights and open-air book exhibitions, our members have been working tirelessly to promote the arts and preserve cultural heritage in the region. We believe that by keeping these traditions alive, we can enrich our communities and create a more vibrant and diverse society. 🎶
 
-![Open Air Book Exhibition]({{ site.baseurl }}/assets/images/openair.png)
+<img src="{{ site.baseurl }}/assets/images/openair.png" alt="Open Air Book Exhibition" style="width: 50%;" />
 
 Check out the [Open Air Book Exhibition](https://aktionwatch.github.io/openair) for more info on some of our actions!
