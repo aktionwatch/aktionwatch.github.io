@@ -5,7 +5,7 @@ baseurl: "/aktionwatch.github.io"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Eirini Chatzara
 paginate: 30
 disqus: 'demowebsite'
 feed_items: 10
