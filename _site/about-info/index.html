@@ -12,7 +12,7 @@
 <title>About Info | Aktion Watch</title>
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="About Info" />
-<meta name="author" content="Sal" />
+<meta name="author" content="Eirini Chatzara" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://localhost:4000/aktionwatch.github.io/about-info/" />
 <meta property="og:url" content="http://localhost:4000/aktionwatch.github.io/about-info/" />
@@ -23,7 +23,7 @@
 <meta property="twitter:image" content="http://localhost:4000/aktionwatch.github.io/assets/images/screenshot.png" />
 <meta property="twitter:title" content="About Info" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Sal"},"headline":"About Info","image":"http://localhost:4000/aktionwatch.github.io/assets/images/screenshot.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/aktionwatch.github.io/assets/images/logo.png"},"name":"Sal"},"url":"http://localhost:4000/aktionwatch.github.io/about-info/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Eirini Chatzara"},"headline":"About Info","image":"http://localhost:4000/aktionwatch.github.io/assets/images/screenshot.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/aktionwatch.github.io/assets/images/logo.png"},"name":"Eirini Chatzara"},"url":"http://localhost:4000/aktionwatch.github.io/about-info/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -103,9 +103,28 @@
 	    
               
 		
-		<li class="nav-item">
-           	     <a class="nav-link px-3 " href="/aktionwatch.github.io/ourprograms/" alt="Our programs">Our programs</a>
-            	</li>
+     <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our programs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {% for subitem in item.submenu %}
+                    {% if subitem.submenu %}
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="{{ subitem.url }}">{{ subitem.title }}</a>
+                        <ul class="dropdown-menu">
+                          {% for submenuitem in subitem.submenu %}
+                            <li><a class="dropdown-item" href="{{ submenuitem.url }}">{{ submenuitem.title }}</a></li>
+                          {% endfor %}
+                        </ul>
+                      </li>
+                    {% else %}
+                      <li><a class="dropdown-item" href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+      </li>
+              
 	    
               
 		
