@@ -9,10 +9,22 @@ permalink: /program2/
 
 Take a look at some of our past projects:
 
-<a href="https://aktionwatch.github.io/openair">
-  <img src="{{ site.baseurl }}/assets/images/openair.png" alt="Open Air Book Exhibition" style="width: 33%;" />
-</a>
 
-
-[Open Air Book Exhibition](https://aktionwatch.github.io/openair)
-
+<div style="display: flex; justify-content: space-around;">
+  <div style="text-align: center;">
+    <a href="https://aktionwatch.github.io/openair">
+      <img src="{{ site.baseurl }}/assets/images/openair.png" alt="Open Air Book Exhibition" style="width: 33%;" />
+    </a>
+    <p>
+      <a href="https://aktionwatch.github.io/openair">Open Air Book Exhibition</a>
+    </p>
+  </div>
+  <div style="text-align: center;">
+    <a href="https://aktionwatch.github.io/link2">
+      <img src="{{ site.baseurl }}/assets/images/image2.png" alt="Link 2 Image" style="width: 25%;" />
+    </a>
+    <p>
+      <a href="https://aktionwatch.github.io/link2">Link 2 Title</a>
+    </p>
+  </div>
+</div>
