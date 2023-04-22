@@ -12,13 +12,13 @@ The success of the Open Air Book Exhibition in Vonitsa during the summers of 201
 
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
-     <img src="{{ site.baseurl }}/assets/images/openair1.png" alt="Open Air Book Exhibition" style="width: 90%;" />
+     <img src="{{ site.baseurl }}/assets/images/openair1.png" alt="Open Air Book Exhibition" style="width: 100%;" />
     <p style="font-size: 12px;">
       Under the Same Sky performance
     </p>
   </div>
   <div style="text-align: center;">
-       <img src="{{ site.baseurl }}/assets/images/openair2.png" alt="Link 2 Image" style="width: 85%;" />
+       <img src="{{ site.baseurl }}/assets/images/openair2.png" alt="Link 2 Image" style="width: 98%;" />
     <p style="font-size: 12px;">
       Under the Same Sky performance
     </p>
