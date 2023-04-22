@@ -3,8 +3,33 @@ layout: page
 title: Open Air Book Exhibition
 permalink: /openair/
 ---
-🐾 At Aktion Watch, we're passionate about animal welfare and have been working hard to protect the rights and well-being of animals in Western Greece. 🐶🐱
+In the summers of 2013 and 2014, Vonitsa hosted the Open Air Book Exhibition, a unique 1-month event that combined the charm of an outdoor bookshop with an array of cultural activities. This exceptional initiative, which later inspired the formation of Aktion Watch, offered residents and visitors the opportunity to explore a wide variety of books while enjoying the warm summer weather.
 
-🐾 Over the years, we've rescued, hospitalized, and rehomed hundreds of cats and dogs in need. We believe that every animal deserves love, care, and protection, and we're committed to doing our part to make that happen. 🏥<br />
-🐾 But it's not just about rescuing animals! We're also dedicated to raising awareness about animal welfare issues in our municipality and beyond. By educating the public and advocating for stronger animal protection laws, we're working to create a more compassionate society for all. 🐕🐈<br />
-🐾 Our experience in animal welfare has taught us that compassion and action go hand in hand. That's why we're always looking for new ways to make a difference, whether it's through fostering animals, organizing adoption events, or partnering with other animal welfare organizations. 🤝
+Throughout the event, attendees were treated to a diverse program of activities, catering to a range of interests. In addition to the open air bookshop, the initiative featured cinema screenings, concerts, author presentations, and theater performances. These engaging cultural events created a dynamic atmosphere, encouraging people to immerse themselves in the world of literature and the arts while fostering a sense of community.
+
+The success of the Open Air Book Exhibition in Vonitsa during the summers of 2013 and 2014 laid the groundwork for the establishment of Aktion Watch. This group of dedicated individuals, inspired by the impact of the initiative, set out to promote cultural enrichment and strengthen community ties by organizing similar events and activities. By offering an extensive range of activities for all ages, the Open Air Book Exhibition served as a catalyst for Aktion Watch's mission to inspire a love for reading and the arts within the community.
+
+
+<div style="display: flex; justify-content: space-around;">
+  <div style="text-align: center;">
+     <img src="{{ site.baseurl }}/assets/images/openair1.png" alt="Open Air Book Exhibition" style="width: 40%;" />
+    </a>
+    <p>
+      Under the Same Sky performance
+    </p>
+  </div>
+  <div style="text-align: center;">
+       <img src="{{ site.baseurl }}/assets/images/openair2.png" alt="Link 2 Image" style="width: 40%;" />
+    </a>
+    <p>
+      Under the Same Sky performance
+    </p>
+  </div>
+    <div style="text-align: center;">
+        <img src="{{ site.baseurl }}/assets/images/openair3.png" alt="Open Air Book Exhibition" style="width: 40%;" />
+    </a>
+    <p>
+      Singer Miltos Pashalidis at Open Air Book Exhibition
+    </p>
+  </div>
+</div>
