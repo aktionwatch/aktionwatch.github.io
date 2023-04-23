@@ -17,20 +17,20 @@ permalink: /calendar/
   <!-- Moment.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   
-  <!-- FullCalendar.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
-  
-  <!-- FullCalendar CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" />
+  <!-- FullCalendar v5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.js"></script>
   
 </head>
 <body>
   <div id="calendar">
     <script>
-      $(document).ready(function() {
-        $('#calendar').fullCalendar({
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
           events: '_data/events-data.json'
         });
+        calendar.render();
       });
     </script>
   </div>
