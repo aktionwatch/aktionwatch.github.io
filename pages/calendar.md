@@ -10,7 +10,7 @@ permalink: /calendar/
            events: '_data/events-data.json'
          });
           });
-    /script>
+    </script>
 
 
 </div>
