@@ -10,7 +10,7 @@ image: assets/images/climatecrisis1.png
 
 💡 With a keen understanding of both the science and the public perception of climate change, our Deputy Secretary analyzed the way cinema reflects our society's concerns and helps us understand the urgent need for climate action. She believes that leveraging the power of storytelling in movies can inspire millions to make meaningful changes for a more sustainable future. 🌳🌱
 
-![Deputy Secretary of Aktion Watch](/assets/images/climatecrisis2.png
+![Deputy Secretary of Aktion Watch](/assets/images/climatecrisis2.png)
 
 At Aktion Watch, we're proud to have a team team with evident passion for environmental justice. 🌟
 
@@ -18,4 +18,4 @@ At Aktion Watch, we're proud to have a team team with evident passion for enviro
 
 #AktionWatch #DeputySecretary #PhDResearcher #ClimateCrisis #BlockbusterMovies #NationalKapodistrianUniversityOfAthens #ClimateChangeAwareness #EnvironmentalJustice #StorytellingForChange
 
-You can watch the full presentation here: [Communicating Climate Crisis][https://www.youtube.com/live/srt4_bz9oB4?feature=share&t=5631]!
+You can watch the full presentation here: [Communicating Climate Crisis](https://www.youtube.com/live/srt4_bz9oB4?feature=share&t=5631)!
