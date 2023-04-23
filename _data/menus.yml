@@ -19,6 +19,10 @@ topmenu:
         url: "/ourprojects/cultural-preservation/"
       - title: Animal Welfare
         url: "/ourprojects/animal-welfare/"
+
+- title: Events
+  url: "calendar/"
+
 - title: Contact
   url: "contact/"
 
