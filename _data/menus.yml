@@ -21,7 +21,7 @@ topmenu:
         url: "/ourprojects/animal-welfare/"
 
 - title: Events
-  url: "calendar/"
+  url: "events/"
 
 - title: Contact
   url: "contact/"
