@@ -141,6 +141,7 @@
       </nav>
     </div>  
           
+    <div id="calendar"></div>
 
     
 <!-- Container
@@ -224,6 +225,18 @@
 <script src="/aktionwatch.github.io/assets/js/jquery.min.js"></script>   
 <script src="/aktionwatch.github.io/assets/js/bootstrap.min.js"></script>   
 <script src="/aktionwatch.github.io/assets/js/theme.js"></script>    
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      events: '/aktionwatch.github.io/_data/events-data.json' // Update this path
+    });
+
+    calendar.render();
+  });
+</script>
+
     
 </body>
     
