@@ -8,7 +8,7 @@ image: assets/images/climatecrisis1.png
 
 🎓 Currently researching Public Understanding of Climate Crisis, our Deputy Secretary has been making waves in the academic world, as well as in the environmental community. She recently presented at the 2nd Conference about the Climate Crisis at the National Kapodistrian University of Athens part of her work on the representation of climate crisis in blockbuster movies. 🎥🍃
 
-💡 With a keen understanding of both the science and the public perception of climate change, our Deputy Secretary analyzed the way cinema reflects our society's concerns and helps us understand the urgent need for climate action. She believes that leveraging the power of storytelling in movies can inspire millions to make meaningful changes for a more sustainable future. 🌳🌱
+💡 With a keen understanding of both the science and the public perception of climate change, our Deputy General Secretary analyzed the way cinema reflects our society's concerns and helps us understand the urgent need for climate action. She believes that leveraging the power of storytelling in movies can inspire millions to make meaningful changes for a more sustainable future. 🌳🌱
 
 ![Deputy Secretary of Aktion Watch](/assets/images/climatecrisis2.png)
 
