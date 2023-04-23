@@ -19,8 +19,6 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
     gem 'tzinfo-data'
-    gem 'tzinfo'
-    gem 'jekyll-events'
-    
+    gem 'tzinfo'    
 
 end
