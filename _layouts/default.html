@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
   
+<!-- Dependencies -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+<!-- FullCalendar -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -102,30 +109,15 @@ gtag('config', '{{site.ganalytics}}');
            	     <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
             	</li>
 	    {% endif %}
-      {% if item.title == "About Us" %}
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle px-3" href="#" id="aboutUsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      About Us
-    </a>
-    <div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
-      <!-- Add the dropdown menu items here -->
-      <a class="dropdown-item" href="{{site.baseurl}}/our-mission">Our Mission</a>
-      <a class="dropdown-item" href="{{site.baseurl}}/our-story">Our Story</a>
-      <a class="dropdown-item" href="{{site.baseurl}}/our-team">Our Team</a>
-      <a class="dropdown-item" href="{{site.baseurl}}/our-partners">Our Partners</a>
-    </div>
-  </li>
-{% else %}
-
-
-              {% endif %}
+              {% endfor %}
             </ul>
           </div>
 
         </div>
       </nav>
     </div>  
-
+          
+    <div id="calendar"></div>
 
     
 <!-- Container
