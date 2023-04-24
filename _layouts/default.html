@@ -109,6 +109,19 @@ gtag('config', '{{site.ganalytics}}');
            	     <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
             	</li>
 	    {% endif %}
+      {% elsif item.title == "About us" %}
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle px-3" href="#" id="aboutusDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{item.title}}
+    </a>
+    <div class="dropdown-menu" aria-labelledby="aboutusDropdown">
+      <!-- Add the dropdown menu items here -->
+      <a class="dropdown-item" href="{{site.baseurl}}/about/our-mission">Our Mission</a>
+      <a class="dropdown-item" href="{{site.baseurl}}/about/our-team">Our Team</a>
+      <a class="dropdown-item" href="{{site.baseurl}}/about/our-history">Our History</a>
+    </div>
+  </li>
+
               {% endfor %}
             </ul>
           </div>
