@@ -4,17 +4,8 @@ topmenu:
 - title: Home
   url: ""
 
-- title: About Us
+- title: About
   url: "about/"
-  submenu:
-    - title: Our Mission
-      url: "/about/our-mission/"
-    - title: Our Story
-      url: "/about/our-story/"
-    - title: Our Team
-      url: "/about/our-team/"
-    - title: Our Partners
-      url: "/about/our-partners/"
   
 - title: Our projects
   url: "ourprojects/"  
