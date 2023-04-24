@@ -85,46 +85,42 @@ gtag('config', '{{site.ganalytics}}');
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto font-weight-bold d-flex align-items-center">
               {% for item in site.data.menus.topmenu %}
-		{% if item.title == "Our projects" %}
-   		 <li class="nav-item dropdown">
-     		 <a class="nav-link dropdown-toggle px-3" href="#" id="ourprojectsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      		  {{item.title}}
-    		 </a>
-		 <div class="dropdown-menu" aria-labelledby="ourprojectsDropdown">
-       			 <!-- Add the dropdown menu items here -->
-   		     <a class="dropdown-item" href="{{site.baseurl}}/program1">Environmental</a>
-   		     <a class="dropdown-item" href="{{site.baseurl}}/program2">Cultural</a>
-  		     <a class="dropdown-item" href="{{site.baseurl}}/program3">Animal Welfare</a>
-   		</div>
-           	</li>
-   		{% else %}
-		<li class="nav-item">
-           	     <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
-            	</li>
-	    {% endif %}
-      {% if item.title == "About Us" %}
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle px-3" href="#" id="aboutUsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      About Us
-    </a>
-    <div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
-      <!-- Add the dropdown menu items here -->
-      <a class="dropdown-item" href="{{site.baseurl}}/our-mission">Our Mission</a>
-      <a class="dropdown-item" href="{{site.baseurl}}/our-story">Our Story</a>
-      <a class="dropdown-item" href="{{site.baseurl}}/our-team">Our Team</a>
-      <a class="dropdown-item" href="{{site.baseurl}}/our-partners">Our Partners</a>
-    </div>
-  </li>
-{% else %}
-
-
+                {% if item.title == "About Us" %}
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-3" href="#" id="aboutUsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
+                      <!-- Add the dropdown menu items here -->
+                      <a class="dropdown-item" href="{{site.baseurl}}/our-mission">Our Mission</a>
+                      <a class="dropdown-item" href="{{site.baseurl}}/our-story">Our Story</a>
+                      <a class="dropdown-item" href="{{site.baseurl}}/our-team">Our Team</a>
+                      <a class="dropdown-item" href="{{site.baseurl}}/our-partners">Our Partners</a>
+                    </div>
+                  </li>
+                {% else %}
+                  <!-- You can add another condition or an else block here if needed -->
+                {% endif %}
+                {% if item.title == "Our projects" %}
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-3" href="#" id="ourprojectsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {{item.title}}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="ourprojectsDropdown">
+                      <!-- Add the dropdown menu items here -->
+                      <a class="dropdown-item" href="{{site.baseurl}}/program1">Environmental</a>
+                      <a class="dropdown-item" href="{{site.baseurl}}/program2">Cultural</a>
+                      <a class="dropdown-item" href="{{site.baseurl}}/program3">Animal Welfare</a>
+                    </div>
+                  </li>
+                {% else %}
+                  <li class="nav-item">
+                    <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+                  </li>
+                {% endif %}
               {% endfor %}
             </ul>
-          </div>
-
-        </div>
-      </nav>
-    </div>  
+            
 
 
     
