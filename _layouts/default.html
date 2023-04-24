@@ -102,20 +102,21 @@ gtag('config', '{{site.ganalytics}}');
            	     <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
             	</li>
 	    {% endif %}
-      {% else if item.title == "About Us" %}
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle px-3" href="#" id="aboutUsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About Us
-        </a>
-        <div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
-          <!-- Add the dropdown menu items here -->
-          <a class="dropdown-item" href="/aktionwatch.github.io/our-mission/">Our Mission</a>
-          <a class="dropdown-item" href="/aktionwatch.github.io/our-story/">Our Story</a>
-          <a class="dropdown-item" href="/aktionwatch.github.io/our-team/">Our Team</a>
-          <a class="dropdown-item" href="/aktionwatch.github.io/our-partners/">Our Partners</a>
-        </div>
-      </li>
+      {% if item.title == "About Us" %}
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle px-3" href="#" id="aboutUsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      About Us
+    </a>
+    <div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
+      <!-- Add the dropdown menu items here -->
+      <a class="dropdown-item" href="{{site.baseurl}}/our-mission">Our Mission</a>
+      <a class="dropdown-item" href="{{site.baseurl}}/our-story">Our Story</a>
+      <a class="dropdown-item" href="{{site.baseurl}}/our-team">Our Team</a>
+      <a class="dropdown-item" href="{{site.baseurl}}/our-partners">Our Partners</a>
+    </div>
+  </li>
+{% else %}
+
 
               {% endfor %}
             </ul>
@@ -124,8 +125,7 @@ gtag('config', '{{site.ganalytics}}');
         </div>
       </nav>
     </div>  
-          
-    <div id="calendar"></div>
+
 
     
 <!-- Container
