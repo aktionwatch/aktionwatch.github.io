@@ -2,7 +2,7 @@
 layout: post
 title:  "Aktion Watch Festival"
 categories: [ sustainability, environment, festival ]
-image: assets/images/poster.jpg
+image: assets/images/poster.png
 ---
 Get ready for an unforgettable experience as Aktion Watch invites you to our upcoming festival, where we will celebrate environmental sustainability, cultural appreciation, and animal welfare. Save the date for 3, 4 & 5 June and join us for a weekend filled with inspiring activities, educational workshops, and captivating performances!
 
