@@ -2,7 +2,7 @@
 layout: post
 title:  "Aktion Watch 1st Festival"
 categories: [ sustainability, environment, festival ]
-image: assets/images/poster.png
+image: assets/images/postercover.png
 ---
 Get ready for an unforgettable 🎉 experience at Aktion Watch's 1st Festival 🌿🐾🎭! Join us on June 3-5 for a festival packed with inspiring activities, educational workshops, and captivating performances!
 
