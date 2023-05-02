@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2nd Conference on Climate Crisis, NKUA"
-categories: [ sustainablility, environment, climate change ]
+categories: [ sustainability, environment, climate change ]
 image: assets/images/climatecrisis1.png
 ---
 🌍✊🎬 Introducing our very own Deputy Secretary-General of Aktion Watch, Eirini Chatzara: A PhD Researcher, Advocate for Earth, and Connoisseur of Blockbuster Storytelling!
