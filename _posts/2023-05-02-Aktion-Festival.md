@@ -14,7 +14,7 @@ Join us in our mission to create positive change in our communities and beyond b
 
 To register for the workshops, please fill the following form or contact us at [Your Contact Information]. Don't miss out on this unique opportunity to be part of an incredible experience that celebrates our environment, our culture, and our animal friends.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdC_p2sMRBCg2cB9WD051ZHV903CLTN4NOxwzO9xv7WTZMWpg/viewform?embedded=true" width="640" height="1122" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdC_p2sMRBCg2cB9WD051ZHV903CLTN4NOxwzO9xv7WTZMWpg/viewform?embedded=true" width="100%" height="1122" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 
